@@ -34,3 +34,5 @@ valen.uts(10)
 valen.uas(35)
 valen.check_status()
 
+###KESIMPULAN###
+# Private Atrbute yakni atribut yang hanya bisa dirubah di dalam kelas saja

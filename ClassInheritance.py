@@ -14,9 +14,11 @@ class Ojek() :
 class Gojek(Ojek) : #Inheritance "Jadi semua itu turunan dari class Ojek"
     pass
 
-ojek1 = Ojek("Swandewi","Matic","Tangerang")
-ojek2 = Gojek("Krisna","Manual","Bogor")
+ojek1 = Gojek("Swandewi","Matic","Tangerang")
+ojek2 = Ojek("Krisna","Manual","Bogor")
+ojek3 = Gojek("Valen", "Matic", "Tangerang")
 
 #hanya perlu memanggil saja karena sudah print diatas 'def cek id'
 (ojek1.cek_id_ojek())
 (ojek2.cek_id_ojek())
+(ojek3.cek_id_ojek())
