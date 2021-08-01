@@ -1,0 +1,3 @@
+Aku sedang semangat belajar
+Ini baris kedua
+Baris ini dibuat dengan mode append
